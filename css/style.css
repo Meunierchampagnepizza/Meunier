@@ -71,6 +71,20 @@ p {
   position: center;
 }
 
+
+.responsive-img {
+  width: 110px;
+  height: 80px;
+}
+
+.node .content responsive-img {
+
+float: left;
+display: inline;
+clear: both;
+
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
